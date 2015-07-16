@@ -10,10 +10,10 @@ Filename and dirname variables can locate the absolute location of a file. They 
 The current working directory is the base for working with relative file paths.
 Some command line methods
 
-'''
-process.cwd() // current working directory
-process.chdir(string) // changes directory to input string
+```javascript
 
-'''
+process.cwd() // current working directory ;
+process.chdir(string) // changes directory to input string ;
+```
 ## Reading Files
 Read files through *fs* module *readFile()* and *readFileSync()*.
