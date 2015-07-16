@@ -10,4 +10,4 @@ We know that javascript is not multithreading because one task should not affect
 
 Most other languages have synchronous I/O (blocking) which means when I/O happens the application will wait until the operation is complete. Most of these languages support multi-threads. Javascript is single threaded however, it is asynchronous meaning it will continue to execute code despite a return from I/O.
 ## Callback Functions
-
+Callback function is called after an asynchronous operation is complete.
