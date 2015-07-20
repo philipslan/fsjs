@@ -22,4 +22,12 @@ Read files through *fs* module *readFile()* and *readFileSync()*. readFile and r
 Use *writeFile(filename, data, more_info, return_fn)* and *writeFileSync(filename, data, more_info)*. Setting flags allows for better control ex. appending documents, not overwriting existing ones.
 
 ## Streams
+Used for moving data between points.
+### Readable Streams
+They are sources emitting: data close, end, and error events.
+### Writable Streams
+Use write() and end() methods.
+pipe() allows the output of a stream to be used for an input of another stream.
 
+## Standard Streams
+stdin, stdout, & stderr.
